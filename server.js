@@ -62,7 +62,11 @@ async function main() {
                 .then(result => {
                     console.log('message saved')
                     console.log(req.body)
-                    res.render('pisoHome.ejs')
+                    /*res.render('pisoHome.ejs', 
+                    {
+                        messages: result
+                    })*/
+                    res.redirect(req.get('referer'))
                 })
                 .catch(error => console.error(error))
         })
