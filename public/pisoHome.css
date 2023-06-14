@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+}
+
+nav img {
+    width: 90px;
+}
+
+.message_container {
+    display: flex;
+    margin: 5px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.date_container {
+    margin-bottom: 20px;
+}
+
+.message {
+    color: white;
+    background-color: #111111;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: calc(auto + 100px);
+}
+
+.right {
+    float: right;
+    width: 800px;
+}
+
+.date {
+    color: #838181;
+    font-size: 10px;
+    margin: 5px 10px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*padding: top right bottom left*/
+    padding: 10px;
+    /*position: relative;*/
+}
+
+.form_container {
+    width: 800px;
+    height: auto;
+}
+
+.post_container {
+    display: flex;
+}
+
+.post_content{
+    width: 100%;
+}
+
+.post_content input {
+    width: 95%;
+    border-radius: 25px;
+    border: 0px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.post_container div a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+#messages_time{
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 15px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #111111;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

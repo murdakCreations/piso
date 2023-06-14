@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 50px;
+    /*position: relative;*/
+}
+
+.container .logo img{
+    width: 500px;
+    height: 500px;
+}
+
+.container div input {
+    margin: 25px 0px 25px 65px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 350px;
+    font-size: 25px;
+}
+
+.login{
+    margin:10px 0px 0px 180px;
+    border-radius: 25px;
+    /*padding: top right bottom left*/
+    padding: 10px 50px 10px 50px;
+    font-size: 25px;
+    background-color: #3cb878;
+    text-decoration: none;
+    color: black;
+}
